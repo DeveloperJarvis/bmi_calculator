@@ -132,3 +132,16 @@ You should have received a copy of the GNU General Public License along with thi
 ### Contributing
 
 If you would like to contribute to the project, feel free to fork the repository, submit pull requests, or open issues for bugs or enhancements.
+
+## Creating tag
+
+```bash
+# 1. Check existing tags
+git tag
+# 2. Create a valid tag
+git tag -a v1.0.0 -m "Release version 1.0.0"
+# or lightweight tag
+git tag v1.0.0
+# push tag to remote
+git push origin v1.0.0
+```
