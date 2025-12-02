@@ -110,7 +110,7 @@ float user_input(int flag)
         }
         if (value <= 0)
         {
-            printf("Weight cannot be negative or zero. Please enter a positive value\n");
+            printf("Input cannot be negative or zero. Please enter a positive value\n");
             clear_input_buffer();
             continue;
         }
